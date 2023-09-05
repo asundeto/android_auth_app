@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="logout">Шығу</string>
+    <string name="already_have_an_account_sign_in">Аккаунтыңыз барма? Кіру</string>
+    <string name="repeat_password">Құпия сөді қайталау</string>
+    <string name="password">Құпия сөз</string>
+    <string name="username">Қолданушы аты</string>
+    <string name="sign_up7">Тіркелу</string>
+    <string name="sign_in">Кіру</string>
+    <string name="password2">Құпия сөз</string>
+    <string name="forget_your_password">Құпия сөзді ұмыттыңызба?</string>
+    <string name="sign_in2">Кіру</string>
+    <string name="don_t_have_an_account_sign_up">Аккаунтыңыз жоқ па? Тіркелу</string>
+</resources>

@@ -1,0 +1,1 @@
+The project was aimed at understanding how the authorization system works in android applications

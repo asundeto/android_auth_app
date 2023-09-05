@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.RegLogApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item> <!-- App up color -->
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:itemBackground">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSecondaryVariant</item> <!-- App up color -->
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- SPLASH SCREEN -->
+    <style name="SplashScreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splashscreen</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+    </style>
+
+
+    <style name="Nav_theme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorOnPrimary</item>
+    </style>
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "279494121265",
+    "project_id": "reglogapp-d59fc",
+    "storage_bucket": "reglogapp-d59fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279494121265:android:72c84f5e4e07d9659e0210",
+        "android_client_info": {
+          "package_name": "com.example.reglogapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279494121265-prvblkcakhumq7rm9s5lvu5pd0rkqfrg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.reglogapp",
+            "certificate_hash": "9bdc3979ba4370d535464bfed112f8d795ab54ea"
+          }
+        },
+        {
+          "client_id": "279494121265-r6jdd073s589ik4ds2bkkfs01a7es5ns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXHZBca-rmHRyUESWlokqeEySH28qjeNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279494121265-r6jdd073s589ik4ds2bkkfs01a7es5ns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

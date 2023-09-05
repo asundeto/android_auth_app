@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_main"
+    tools:context=".OtpActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_circle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:elevation="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@drawable/radius_reg_log"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:elevation="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verification code"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#5F48F5"
+            android:textSize="30sp"
+            android:layout_marginBottom="40dp"/>
+        <EditText
+            android:id="@+id/otp_edit_text"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingStart="20dp"
+            android:hint="Enter verification code"
+            android:textColorHint="#949494"
+            android:backgroundTint="#248aff"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingEnd="10dp"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_height="50dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/otp_send_btn"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/gradient_button"
+            android:layout_marginTop="50dp"
+            android:text="Send"
+            android:textColor="#fff"
+            android:elevation="10dp"
+            android:textSize="18sp"
+            android:textAllCaps="true"/>
+        <TextView
+            android:id="@+id/send_code_again_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#FF70AF"
+            android:textStyle="bold"
+            android:text="No code received? Send again"
+            android:gravity="center"
+            android:layout_marginTop="20sp"/>
+    </LinearLayout>
+
+</LinearLayout>
